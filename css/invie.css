@@ -1,0 +1,260 @@
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Allerta', sans-serif; */
+/* Hay que tener en cuenta las gerarquias para saber cual s elee primero
+recordando que va en cascada */
+/* Los estilos de etiqueta es preferentemente colocarlos al inicio */
+
+body {
+  font-family: 'Allerta', sans-serif;
+  margin: 0px;
+}
+table {
+  width: 100%;
+}
+
+th {
+  padding: 10px 20px;
+  background: #273b47;
+  color: white;
+  text-align: left;
+}
+
+td {
+  padding: 20px;
+}
+
+table, td, th {
+  border: 1px solid #273b47;
+  border-collapse: collapse;
+}
+
+input, textarea{
+  outline: 0;
+}
+
+input:focus, textarea:focus{
+  background: lightgray;
+}
+
+.button {
+  border-radius: 12px;
+  background:linear-gradient(to right,#ff7250,#fe344e);
+  color: white;
+  border: none;
+  padding: 7px 12px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.contenedor {
+  width: 800px;
+  margin: auto;
+  position: relative;
+}
+
+.background {
+  background-image: url("../images/background.png");
+  background-size: cover;
+}
+
+.button a {
+  text-decoration: none;
+  color: white;
+}
+
+.titulo {
+  font-size: 70px;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 0;
+  margin-top: 70px;
+}
+
+.titulo span {
+  text-decoration: underline;
+}
+
+.title-a {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.title-b {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.Guitarras {
+  color: #1F313C;
+  margin-bottom: 60px;
+}
+
+.Guitarras h2 {
+  font-size: 35px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.portada {
+  color: white;
+  padding: 20px;
+  height: 500px;
+}
+
+.portada button {
+  margin-bottom: 70px;
+}
+
+.menu {
+  font-size: 24px;
+  /* si quiero pocisionar mi header hacia la derecha podria utilizar
+  float: rigth;  pero para este caso utilizaremos position*/
+  position: absolute;
+  right: 0;
+}
+
+.menu li:before{
+  content: "∘";
+  font-size: 30px;
+  line-height: 20px;
+  color: white;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+/* display del header  */
+.logotipo, .menu, .menu li {
+	display: inline-block;
+}
+
+.menu li {
+  margin-left: 30px;
+}
+
+.logotipo {
+  margin-left: 0;
+}
+
+
+
+.Guitarra{
+  margin: 10px 10px 40px 10px;
+  padding:  10px;
+  /* overflow: hidden; */
+  border: 1px solid #1F313C;
+  border-radius: 8px;
+  margin:
+}
+.Guitarra ol {
+  padding:  0;
+}
+
+.Guitarra.b {
+  height: 190px
+}
+
+.derecha {
+  float: right;
+  position: relative;
+  top: -127px;
+}
+
+.izquierda {
+  float: left;
+  position: relative;
+}
+
+.contenedor-guitarra-b {
+  margin-left: 370px;
+  position: relative;
+  bottom: 70px;
+}
+
+.contenedor-guitarra-a {
+  padding-left: 20px;
+  position: relative;
+  bottom: 20px;
+}
+
+.header {
+  position: relative;
+}
+
+.footer {
+  background: #273b47;
+  padding: 30px 0px
+}
+
+.contacto {
+  display: flex;
+  width: 300px;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.contacto img {
+  display: block;
+  margin-bottom: 40px;
+}
+
+.contacto strong {
+  display: block;
+}
+.contacto a {
+  color: white;
+  text-decoration: none;
+  margin: 10px 10px 10px 0;
+}
+
+.footer .contenedor {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formulario {
+  display: flex;
+  width: 400px;
+  color: white;
+}
+
+.col1, .col2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.col1 {
+  margin-right: 15px;
+}
+
+.col1 label{
+  margin-top: 8px;
+}
+
+.col2 {
+  align-items: flex-start;
+}
+
+.col2 .button {
+  margin-top: 15px;
+}
+
+.intereses label {
+  font-size: 12px;
+}
+
+.sexo label {
+  font-size: 14px;
+}
+
+.formulario label, .sexo, .intereses {
+  margin-bottom: 10px;
+}
+
+.sexo {
+  margin-top: 10px;
+}
+
+.tabla{
+  margin: 50px 0;
+}
